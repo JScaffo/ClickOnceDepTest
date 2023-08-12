@@ -26,7 +26,7 @@
     <InstallUrl>https://raw.githubusercontent.com/Shuezi/ClickOnceDepTest/main/ClickOnceDeploTest/ClickOnceDeploTest/publish/</InstallUrl>
     <UpdateUrl>https://raw.githubusercontent.com/Shuezi/ClickOnceDepTest/main/ClickOnceDeploTest/ClickOnceDeploTest/publish/</UpdateUrl>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>16</ApplicationRevision>
+    <ApplicationRevision>17</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
