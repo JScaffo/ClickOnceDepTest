@@ -24,5 +24,7 @@ namespace ClickOnceDeploTest
             Console.ReadLine();
 
         }
+
+
     }
 }
