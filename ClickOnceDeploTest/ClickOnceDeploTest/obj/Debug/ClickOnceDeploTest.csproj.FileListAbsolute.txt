@@ -6,3 +6,7 @@ C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOn
 C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.csproj.CoreCompileInputs.cache
 C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.exe
 C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.pdb
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\bin\Debug\ClickOnceDeploTest.exe.manifest
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\bin\Debug\ClickOnceDeploTest.application
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.exe.manifest
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.application
