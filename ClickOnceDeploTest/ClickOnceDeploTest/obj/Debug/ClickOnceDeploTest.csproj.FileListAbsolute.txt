@@ -1,0 +1,8 @@
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\bin\Debug\ClickOnceDeploTest.exe.config
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\bin\Debug\ClickOnceDeploTest.exe
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\bin\Debug\ClickOnceDeploTest.pdb
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.csproj.AssemblyReference.cache
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.csproj.SuggestedBindingRedirects.cache
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.csproj.CoreCompileInputs.cache
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.exe
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.pdb
