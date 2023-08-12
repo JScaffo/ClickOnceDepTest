@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ClickOnceDeploTest.exe" version="1.0.0.16" publicKeyToken="262f39bd82b08b48" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ClickOnceDeploTest" version="1.0.0.0" publicKeyToken="262F39BD82B08B48" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ClickOnceDeploTest.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ClickOnceDeploTest.exe" size="6096">
+      <assemblyIdentity name="ClickOnceDeploTest" version="1.0.0.0" publicKeyToken="262F39BD82B08B48" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4VFPzVa8xi9bELvSc0votbfirRwAxkEGeIgXNMexvjk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ClickOnceDeploTest.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oWu74zvPy0v3fB+cE0VM1nicyfA0TvANUiqy8USokWE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=AzureAD\JuanScaffo" issuerKeyHash="f5543cd670e1af92259228bd21b34a204bc23760" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>fMJuLx0xMoAiY/vkG1eEqjz0sD2ypUP/cmaWlCvAyu4=</DigestValue></Reference></SignedInfo><SignatureValue>axg0T+baMIhe+fvzdnbzOXNYeiv7QaaWcze5CUWvpS71+gPTkM0mlTc7o4jSptwDRlXCtukp/TmNZtCxF7iOO+wW49RSMM1h4ACoHlBqFlxalC9FWQqPXmhENZACCTamGeL3m3wN0Zqt+u8mKWZpKLdUcEtu0R5x67Y44/ZSTfA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>1SpG0Ai8agEhxkAAOtbtVmC2uPDU/t2DRGw11o+yOETjAqt/eddYb6QDteSj2GzcJZsb2OgnJR+puIJ3Tc/pq/Kk/xvAZIxz+Loufrv++pyZz05kdVMyqE8iHX/nE3Cm64woZhyFyFrZJINTrIRuX4I0AXT0tlMG1RtnazLF/r0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="eecac02b94966672ff43a5b23db0f43caa84571be4fb63228032311d2f6ec27c" Description="" Url=""><as:assemblyIdentity name="ClickOnceDeploTest.exe" version="1.0.0.16" publicKeyToken="262f39bd82b08b48" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AzureAD\JuanScaffo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>W+7dJKs2+nRZDziNtlTi1EtwYGDBWyQXro9UJt9Y73E=</DigestValue></Reference></SignedInfo><SignatureValue>pFde609xQbe+eY3lbq3aLHY9C8iO2kg2hxp11kN830o8N8X9Q2f/AQPbfIrmUEMX2ZkXRWcwqzPDKoWVyxviIsim2ATtWCAPzEhoOBb8FPozrN+8n9pIfwEVbK8FlgP2YukmYnnzj0PG58jL+W/Ww7CJ5w0jlr4bQI965j+lojw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>1SpG0Ai8agEhxkAAOtbtVmC2uPDU/t2DRGw11o+yOETjAqt/eddYb6QDteSj2GzcJZsb2OgnJR+puIJ3Tc/pq/Kk/xvAZIxz+Loufrv++pyZz05kdVMyqE8iHX/nE3Cm64woZhyFyFrZJINTrIRuX4I0AXT0tlMG1RtnazLF/r0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB4TCCAUqgAwIBAgIQVpWZJocttaFC2TZtY6ZC7zANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDHiQAQQB6AHUAcgBlAEEARABcAEoAdQBhAG4AUwBjAGEAZgBmAG8wHhcNMjMwODEyMTUyOTAwWhcNMjQwODExMjEyOTAwWjAvMS0wKwYDVQQDHiQAQQB6AHUAcgBlAEEARABcAEoAdQBhAG4AUwBjAGEAZgBmAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANUqRtAIvGoBIcZAADrW7VZgtrjw1P7dg0RsNdaPsjhE4wKrf3nXWG+kA7Xko9hs3CWbG9joJyUfqbiCd03P6avypP8bwGSMc/i6Ln67/vqcmc9OZHVTMqhPIh1/5xNwpuuMKGYchcha2SSDU6yEbl+CNAF09LZTBtUbZ2syxf69AgMBAAEwDQYJKoZIhvcNAQELBQADgYEABctZnV+zYrmWuJxaPvyGi1LXrG/V2I4QlDXwsa31ZgxB+7eWpTILLKj1YWv4peqzTeYp/lKlK7b9/cAE+nTVCW0zerRTRxsvHiHTQU3/RQCHcuhlvp3or1yhEoXWrja/+wM07vXYHBj39v9/pMhGJScVQZBRjmNxM0O6dbxleCw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

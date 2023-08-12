@@ -16,6 +16,11 @@ namespace ClickOnceDeploTest
             else
                 Console.WriteLine("Sin deployment");
 
+            if (ApplicationDeployment.CurrentDeployment.CheckForUpdate()) {
+                Console.Write("Descargando nueva version!!");
+                ApplicationDeployment.CurrentDeployment.Update();
+            }
+
             Console.ReadLine();
 
         }
