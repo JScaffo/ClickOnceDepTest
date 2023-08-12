@@ -10,3 +10,4 @@ C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOn
 C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\bin\Debug\ClickOnceDeploTest.application
 C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.exe.manifest
 C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.application
+C:\Users\JuanScaffo\Documents\GitHub\ClickOnceDepTest\ClickOnceDeploTest\ClickOnceDeploTest\obj\Debug\ClickOnceDeploTest.TrustInfo.xml
